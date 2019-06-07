@@ -68,6 +68,6 @@ ll.addToTail(30);
 ll.addToHead(79);
 // ll.removeHead();
 
-console.log(ll.removeHead());
+// console.log(ll.removeHead());
 
 export default LinkedList;
