@@ -56,6 +56,18 @@ LL.prototype.search = function(searchValue) {
   return null;
 };
 
+LL.prototype.indexOf = function(value) {
+  var temp = this.head;
+  var index = 0;
+  var indexArray = new Array();
+  while (temp) {
+    if (temp.value === value) indexArray.push(index);
+    temp = temp.next;
+    index++;
+  }
+  return indexArray;
+};
+
 const ll = new LL();
 // ll.addToHead(79);
 // ll.addToHead(100);
