@@ -58,12 +58,12 @@ hashTable.prototype.get = function(key) {
   }
 };
 
-var myHT = new hashTable(30);
-myHT.insert('Lobo', 'andrew@gmail.com');
-myHT.insert('Loob', 'kwei@gmail.com');
-myHT.insert('Lobo', 'lobo@gmail.com');
-myHT.insert('Susan', 'Susan@gmail.com');
+// var myHT = new hashTable(30);
+// myHT.insert('Lobo', 'andrew@gmail.com');
+// myHT.insert('Loob', 'kwei@gmail.com');
+// myHT.insert('Lobo', 'lobo@gmail.com');
+// myHT.insert('Susan', 'Susan@gmail.com');
 
-console.log(myHT.get('Lobo'));
+// console.log(myHT.get('Lobo'));
 
 export default HT;
